@@ -116,12 +116,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git
 **启用插件**
 
 ````shell
-vi ~/.zshrc ......... plugins=(  git
-
+vi ~/.zshrc ......... plugins=( git
   zsh-autosuggestions
-
   zsh-syntax-highlighting )
-
 ......... source ~/.zshrc
 ````
 
