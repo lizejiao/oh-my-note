@@ -87,11 +87,15 @@ zsh -c "$(curl -fsSL 'https://host.mintimate.cn/fileHost/download/MTM1NjkzNzI1OT
 
 **卸载命令**
 
+````shell
 uninstall_on_my_zsh
+````
 
 **更换主题** vi ~/.zshrc
 
+````shell
 ZSH_THEME="macovsky-ruby"    "steeef"
+````
 
 **安装语法高亮插件**
 
