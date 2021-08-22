@@ -68,9 +68,11 @@ docker守护进程启动的时候，会默认赋予名字为docker的用户组�
 - **启动nacos：** `docker run --name nacos-2.0.1 -e MODE=standalone -p 8849:8848 -d nacos/nacos-server:2.0.1`
 - **启动kibana：** `docker run -d --name kibana7.7.1 --net mynet   -p 5601:5601 kibana:7.7.1`
 
-###### Kibana Doker启动相关配置
+###### Kibana 在Doker中启动相关配置
 
-`docker exec -it kibana7.7.1 bash cd config vi kibana.yml`
+1. `docker exec -it kibana7.7.1 bash `
+2. `cd config` 
+3. `vi kibana.yml`
 
 - **查看日志：** docker logs -f -t --tail 100 kibana7.7.1
 - **更新启动参数：** docker update --restart=always xxx  
