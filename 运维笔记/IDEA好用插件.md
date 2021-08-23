@@ -7,24 +7,26 @@
 ## 1、代码生成
 
 - Lombok
+
 - EasyCode
 
 - 逆向工程插件
 
+- GsonFormat
+
+  通过json生成实体类
+
 ## 2、代码规范
 
-- GsonFormat
 - Codota
 - Alibaba Java Coding Guidelines
 - SonarLine
 - Translation
 - Jrebel
-- CodeGlance
 - Key Promoter X
 - MyBatis Log Plugin
 - Greg Console
 - Maven Search
-- Xcode Drak theme
 - Rainbow Branckets
 - Active power mode
 
@@ -33,3 +35,10 @@
 
 
 ## 4、主题美化
+
+- CodeGlance
+
+  类似于sublime的右侧代码小地图，CodeGlance2为原版加强，快捷键 **⌘⇧G**
+
+- Xcode Drak theme
+
